@@ -342,6 +342,7 @@ do_versioncheck() {
   fi;
   if [ "$supported" ]; then
     ui_print "$android_ver" " ";
+    echo "$android_ver" > "$AKHOME/android_ver";
   else
     abort " " "Unsupported Android version. Aborting...";
   fi;
