@@ -12,7 +12,7 @@ do.cleanup=1
 do.cleanuponabort=1
 device.name1=surya
 device.name2=karna
-supported.versions=11-16
+supported.versions=11-17
 '; } # end properties
 
 ### AnyKernel install
